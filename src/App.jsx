@@ -29,7 +29,7 @@ function App() {
   return (
    <section className='bg-gray-200 w-screen h-screen  p-10'>
     <h1 className='text-8xl font-bold text-center '>Lovers</h1>
-    <div className='bg-gray-200 w-full h-[80vh] flex flex-col md:flex-col lg:flex-row items-center gap-10 md:justify-between p-10 '>
+    <div className='bg-gray-200 w-full h-auto flex flex-col md:flex-col lg:flex-row items-center gap-10 md:justify-between p-10 '>
       {persons.map((p)=>(
       
        <div className= ' bg-slate-800 text-white rounded-lg w-[60vw] md:w-[200px] items-center h-[200px]  p-10 hover:bg-cyan-700 hover:scale-110 hover:text-xl hover:rounded-4xl transition-all duration-300 ' >
